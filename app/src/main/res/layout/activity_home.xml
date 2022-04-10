@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDE5E8"
+    tools:context=".activity_home">
+
+    <Button
+        android:id="@+id/btVreme"
+        android:layout_width="265dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/vreme"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/btPark"
+        app:layout_constraintStart_toStartOf="@+id/btPark"
+        app:layout_constraintTop_toBottomOf="@+id/btPark" />
+
+    <ImageView
+        android:id="@+id/addImage"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/avatar"
+        tools:ignore="ImageContrastCheck" />
+
+    <Button
+        android:id="@+id/btVeterinar"
+        android:layout_width="265dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/veterinar"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/btTvojiLjubimci"
+        app:layout_constraintTop_toBottomOf="@+id/btTvojiLjubimci" />
+
+    <Button
+        android:id="@+id/btTvojiLjubimci"
+        android:layout_width="265dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/dodaj_ljubimca"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addImage" />
+
+    <Button
+        android:id="@+id/btPomoc"
+        android:layout_width="265dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/pomoc"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/btVreme"
+        app:layout_constraintTop_toBottomOf="@+id/btVreme" />
+
+    <Button
+        android:id="@+id/btPark"
+        android:layout_width="265dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/setnja"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/btVeterinar"
+        app:layout_constraintTop_toBottomOf="@+id/btVeterinar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

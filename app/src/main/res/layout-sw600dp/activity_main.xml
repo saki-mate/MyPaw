@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDE5E8"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/rasaUnos"
+        android:layout_width="600dp"
+        android:layout_height="150dp"
+        android:autofillHints="Unesite rasu:"
+        android:ems="10"
+        android:hint="@string/npr_haski"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textColorHint="#616161"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="@+id/rasa"
+        app:layout_constraintEnd_toEndOf="@+id/imeUnos"
+        app:layout_constraintStart_toStartOf="@+id/imeUnos" />
+
+    <TextView
+        android:id="@+id/ime"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="42dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/ime"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/imeUnos"
+        android:layout_width="600dp"
+        android:layout_height="141dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints="Unesite ime:"
+        android:ems="10"
+        android:hint="@string/npr_dzoni"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textColorHint="#616161"
+        android:textColorLink="#252222"
+        android:textSize="40sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/ime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ime" />
+
+    <TextView
+        android:id="@+id/rasa"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/rasa"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="@+id/ime"
+        app:layout_constraintTop_toBottomOf="@+id/ime" />
+
+    <EditText
+        android:id="@+id/tezinaUnos"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints="Unesite tezinu u kg:"
+        android:ems="10"
+        android:hint="@string/npr_15kg"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textColorHint="#616161"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tezina"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tezina" />
+
+    <TextView
+        android:id="@+id/tezina"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/tezina"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="@+id/btDatum"
+        app:layout_constraintTop_toBottomOf="@+id/btDatum" />
+
+    <Button
+        android:id="@+id/btDatum"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/btDatum"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/datumRodjenja"
+        app:layout_constraintTop_toBottomOf="@+id/datumRodjenja" />
+
+    <TextView
+        android:id="@+id/datumR"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/tackeDatum"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btDatum"
+        app:layout_constraintStart_toEndOf="@+id/btDatum" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        app:layout_constraintStart_toEndOf="@+id/pol"
+        app:layout_constraintTop_toTopOf="@+id/pol">
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/muski"
+            android:textSize="40sp"
+            tools:ignore="TextContrastCheck" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zenski"
+            android:textSize="40sp"
+            tools:ignore="TextContrastCheck" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/pol"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/pol"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="@+id/tezina"
+        app:layout_constraintTop_toBottomOf="@+id/tezina" />
+
+    <TextView
+        android:id="@+id/datumRodjenja"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/datum_rodjenja"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="@+id/rasa"
+        app:layout_constraintTop_toBottomOf="@+id/rasa" />
+
+    <Button
+        android:id="@+id/btDodaj"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/btDodaj"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tezinaUnos" />
+
+    <Button
+        android:id="@+id/btDodajSliku"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="@string/dodaj_sliku"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btDodaj"
+        app:layout_constraintEnd_toEndOf="@+id/btDatum"
+        app:layout_constraintStart_toStartOf="@+id/tezina" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

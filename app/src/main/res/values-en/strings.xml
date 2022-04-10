@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My paw</string>
+    <string name="dodaj">Pets</string>
+    <string name="datum_rodjenja">Date of birth</string>
+    <string name="tezina">Weight</string>
+    <string name="pol">sex</string>
+    <string name="ime">Name</string>
+    <string name="rasa">Breed</string>
+    <string name="npr_haski">Siberian Husky</string>
+    <string name="npr_dzoni">John</string>
+    <string name="npr_12_10_2010">12/10/2010</string>
+    <string name="npr_15kg">15kg</string>
+    <string name="tackeDatum">...</string>
+    <string name="btDatum">Date</string>
+    <string name="btIzlaz">Exit</string>
+    <string name="btDodaj">Add</string>
+    <string name="btJezik">Language</string>
+    <string name="proveri_stanje_postojecih">Check your pets</string>
+    <string name="dodaj_ljubimca">Add a pet</string>
+    <string name="pomoc">Help</string>
+    <string name="google_maps_key">AIzaSyAOdWqNnMUa0QyQTUrrELuewaJ59RoNC84</string>
+    <string name="dodaj_novog">Add new</string>
+    <string name="help_poruka">If you want to be able to check your pets medical condition,
+        vets visits and keep an eye 24h a day on your pet you should start by clicking on the add your pet
+        button on the previous screen and start your journey with my paw.
+        For any other information feel free to contact us, we will reach out in a couple of hours. For any more information contact us by clicking on the image below</string>
+    <string name="setnja">Walk</string>
+    <string name="btZapocniBrojanje">Start Counting</string>
+    <string name="idtvBrojKoraka">Steps taken</string>
+    <string name="idtvDetektorKoraka">All steps taken:</string>
+    <string name="idJezik">Chose a language</string>
+    <string name="btSrpski">Serbian</string>
+    <string name="btEngleski">English</string>
+    <string name="obrisi_sve">Delete all</string>
+    <string name="detalji">Details</string>
+    <string name="obrisi">Delete</string>
+    <string name="vreme">Weather</string>
+    <string name="dodaj_sliku">Add picture</string>
+    <string name="radio_button_muski">Male</string>
+    <string name="radio_button_zenski">Female</string>
+    <string name="temp_celzijus">0</string>
+    <string name="novi_sad">Novi Sad</string>
+    <string name="subjektivni_osecaj">Real feel</string>
+    <string name="muski">Male</string>
+    <string name="zenski">Female</string>
+    <string name="dalje">Next</string>
+    <string name="veterinar">Veterinarian</string>
+</resources>

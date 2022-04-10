@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Moja sapa</string>
+    <string name="dodaj">Dodaj</string>
+    <string name="datum_rodjenja">Datum rodjenja</string>
+    <string name="tezina">Tezina</string>
+    <string name="pol">Pol</string>
+    <string name="ime">Ime</string>
+    <string name="rasa">Rasa</string>
+    <string name="npr_haski">npr. haski</string>
+    <string name="npr_dzoni">npr. Dzoni</string>
+    <string name="npr_12_10_2010">npr. 12/10/2010</string>
+    <string name="npr_15kg">npr: 15kg</string>
+    <string name="tackeDatum">...</string>
+    <string name="btDatum">Datum</string>
+    <string name="btDodaj">Dodaj</string>
+    <string name="btIzlaz">Izlaz</string>
+    <string name="btJezik">Jezik</string>
+    <string name="proveri_stanje_postojecih">Proveri stanje postojecih</string>
+    <string name="dodaj_ljubimca">Dodaj ljubimca</string>
+    <string name="pomoc">Pomoc</string>
+    <string name="google_maps_key">AIzaSyAOdWqNnMUa0QyQTUrrELuewaJ59RoNC84</string>
+    <string name="dodaj_novog">Dodaj novog</string>
+    <string name="help_poruka">Ukoliko zelite da imate uvid u zdravstveno stanje vase kuce 24/7 kao i razne podsetnike na pravom ste mestu! Ova aplikacija vam omogucava da pratite razvoj vaseg ljubimca jos od prvog dana. Ukoliko vi nesto zaboravite mi necemo, vec cemo vas podsetiti putem raznih notifikacija. Zapocnite koriscenje tako sto cete kliknuti na dodaj kucnog ljubimca i popuniti podatke potrebne. Za sva dodatna pitanja kontaktirajte nas klikom na sliku ispod:)</string>
+    <string name="setnja">Setnja</string>
+    <string name="btZapocniBrojanje">Zapocni brojanje</string>
+    <string name="idtvBrojKoraka">Broj predjenih koraka</string>
+    <string name="idtvDetektorKoraka">Ukupan broj predjenih koraka:</string>
+    <string name="idJezik">Izaberite jezik</string>
+    <string name="btSrpski">Srpski</string>
+    <string name="btEngleski">Engleski</string>
+    <string name="obrisi_sve">Obrisi sve</string>
+    <string name="detalji">Detalji</string>
+    <string name="obrisi">Obrisi</string>
+    <string name="vreme">Vreme</string>
+    <string name="dodaj_sliku">Dodaj sliku</string>
+    <string name="radio_button_muski">Muski</string>
+    <string name="radio_button_zenski">Zenski</string>
+    <string name="temp_celzijus">0</string>
+    <string name="novi_sad">Novi Sad</string>
+    <string name="subjektivni_osecaj">subjektivni osecaj</string>
+    <string name="muski">Muski</string>
+    <string name="zenski">Zenski</string>
+    <string name="dalje">Dalje</string>
+    <string name="veterinar">Veterinar</string>
+</resources>

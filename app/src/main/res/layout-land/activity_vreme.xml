@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDE5E8"
+    tools:context=".VremeActivity">
+
+    <TextView
+        android:id="@+id/tvGrad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/novi_sad"
+        android:textColor="#000000"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/vremeSlika"
+        android:layout_width="143dp"
+        android:layout_height="193dp"
+        android:layout_marginTop="100dp"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/oblakrug" />
+
+    <TextView
+        android:id="@+id/tvRealFeel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="108dp"
+        android:text="@string/subjektivni_osecaj"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNajNaj" />
+
+    <TextView
+        android:id="@+id/tvTemperatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/unica_one"
+        android:text="0° "
+        android:textColor="#000000"
+        android:textSize="125sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvDatumVreme"
+        app:layout_constraintHorizontal_bias="0.629"
+        app:layout_constraintStart_toStartOf="@+id/tvDatumVreme"
+        app:layout_constraintTop_toBottomOf="@+id/tvDatumVreme" />
+
+    <TextView
+        android:id="@+id/tvNajNaj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="64dp"
+        android:text="0° / 0° "
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/tvTemperatura"
+        app:layout_constraintTop_toTopOf="@+id/tvTemperatura" />
+
+    <TextView
+        android:id="@+id/tvRFdeg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="8dp"
+        android:text="0°"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvRealFeel"
+        app:layout_constraintStart_toEndOf="@+id/tvRealFeel" />
+
+    <TextView
+        android:id="@+id/tvDatumVreme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="dd-mm-yyyy"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvGrad"
+        app:layout_constraintStart_toStartOf="@+id/tvGrad"
+        app:layout_constraintTop_toBottomOf="@+id/tvGrad" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
